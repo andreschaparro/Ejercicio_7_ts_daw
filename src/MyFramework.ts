@@ -15,6 +15,6 @@ class MyFramework {
      * @returns : Objeto HTMLElement encontrado
      */
     getElementByEvent(evt:Event): HTMLElement {
-        return <HTMLElement>evt.target
+        return <HTMLElement>evt.target;
     }
 }
